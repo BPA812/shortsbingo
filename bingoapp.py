@@ -127,6 +127,105 @@ def crossoff14():
         button14['foreground'] = 'black'
         button14['text'] = 'Girls \n Dancing'
         button14['font'] = ('Helvetica', 15, 'bold')
+def crossoff15():
+    if button15['foreground'] == 'black':
+        button15['foreground'] = 'red'
+        button15['text'] = 'X'
+        button15['font'] = ('Helvetica', 40, 'bold')
+    else:
+        button15['foreground'] = 'black'
+        button15['text'] = 'AI VOICE'
+        button15['font'] = ('Helvetica', 15, 'bold')
+def crossoff16():
+    if button16['foreground'] == 'black':
+        button16['foreground'] = 'red'
+        button16['text'] = 'X'
+        button16['font'] = ('Helvetica', 40, 'bold')
+    else:
+        button16['foreground'] = 'black'
+        button16['text'] = '\"So \n That\'s \n Why\"'
+        button16['font'] = ('Helvetica', 15, 'bold')
+def crossoff17():
+    if button17['foreground'] == 'black':
+        button17['foreground'] = 'red'
+        button17['text'] = 'X'
+        button17['font'] = ('Helvetica', 40, 'bold')
+    else:
+        button17['foreground'] = 'black'
+        button17['text'] = 'MrBeast'
+        button17['font'] = ('Helvetica', 15, 'bold')
+def crossoff18():
+    if button18['foreground'] == 'black':
+        button18['foreground'] = 'red'
+        button18['text'] = 'X'
+        button18['font'] = ('Helvetica', 40, 'bold')
+    else:
+        button18['foreground'] = 'black'
+        button18['text'] = 'Cringe'
+        button18['font'] = ('Helvetica', 15, 'bold')
+def crossoff19():
+    if button19['foreground'] == 'black':
+        button19['foreground'] = 'red'
+        button19['text'] = 'X'
+        button19['font'] = ('Helvetica', 40, 'bold')
+    else:
+        button19['foreground'] = 'black'
+        button19['text'] = 'Actually \n Interesting'
+        button19['font'] = ('Helvetica', 15, 'bold')
+def crossoff20():
+    if button20['foreground'] == 'black':
+        button20['foreground'] = 'red'
+        button20['text'] = 'X'
+        button20['font'] = ('Helvetica', 40, 'bold')
+    else:
+        button20['foreground'] = 'black'
+        button20['text'] = 'Trick \n Shot'
+        button20['font'] = ('Helvetica', 15, 'bold')
+def crossoff21():
+    if button21['foreground'] == 'black':
+        button21['foreground'] = 'red'
+        button21['text'] = 'X'
+        button21['font'] = ('Helvetica', 40, 'bold')
+    else:
+        button21['foreground'] = 'black'
+        button21['text'] = 'GTA'
+        button21['font'] = ('Helvetica', 15, 'bold')
+def crossoff22():
+    if button22['foreground'] == 'black':
+        button22['foreground'] = 'red'
+        button22['text'] = 'X'
+        button22['font'] = ('Helvetica', 40, 'bold')
+    else:
+        button22['foreground'] = 'black'
+        button22['text'] = 'Green \n Screen \n Child'
+        button22['font'] = ('Helvetica', 15, 'bold')
+def crossoff23():
+    if button23['foreground'] == 'black':
+        button23['foreground'] = 'red'
+        button23['text'] = 'X'
+        button23['font'] = ('Helvetica', 40, 'bold')
+    else:
+        button23['foreground'] = 'black'
+        button23['text'] = 'Minecraft'
+        button23['font'] = ('Helvetica', 15, 'bold')
+def crossoff24():
+    if button24['foreground'] == 'black':
+        button24['foreground'] = 'red'
+        button24['text'] = 'X'
+        button24['font'] = ('Helvetica', 40, 'bold')
+    else:
+        button24['foreground'] = 'black'
+        button24['text'] = 'Podcast \n Clip'
+        button24['font'] = ('Helvetica', 15, 'bold')
+def crossoff25():
+    if button25['foreground'] == 'black':
+        button25['foreground'] = 'red'
+        button25['text'] = 'X'
+        button25['font'] = ('Helvetica', 40, 'bold')
+    else:
+        button25['foreground'] = 'black'
+        button25['text'] = 'Food \n Video'
+        button25['font'] = ('Helvetica', 15, 'bold')
 window.geometry("546x546")
 window.title("YT Shorts Bingo")
 button1 = tk.Button(
@@ -283,4 +382,125 @@ button14 = tk.Button(
     font=('Helvetica', 15, 'bold')
 )
 button14.place(x=328,y=219)
+button15 = tk.Button(
+    text='AI VOICE',
+    image=i,
+    compound='c',
+    width=100, 
+    height=100,
+    foreground='black',
+    command=crossoff15,
+    font=('Helvetica', 15, 'bold')
+)
+button15.place(x=437,y=219)
+button16 = tk.Button(
+    text='\"So \n That\'s \n Why\"',
+    image=i,
+    compound='c',
+    width=100, 
+    height=100,
+    foreground='black',
+    command=crossoff16,
+    font=('Helvetica', 15, 'bold')
+)
+button16.place(x=1,y=328)
+button17 = tk.Button(
+    text='MrBeast',
+    image=i,
+    compound='c',
+    width=100, 
+    height=100,
+    foreground='black',
+    command=crossoff17,
+    font=('Helvetica', 15, 'bold')
+)
+button17.place(x=110,y=328)
+button18 = tk.Button(
+    text='Cringe',
+    image=i,
+    compound='c',
+    width=100, 
+    height=100,
+    foreground='black',
+    command=crossoff18,
+    font=('Helvetica', 15, 'bold')
+)
+button18.place(x=219,y=328)
+button19 = tk.Button(
+    text='Actually \n Interesting',
+    image=i,
+    compound='c',
+    width=100, 
+    height=100,
+    foreground='black',
+    command=crossoff19,
+    font=('Helvetica', 15, 'bold')
+)
+button19.place(x=328,y=328)
+button20 = tk.Button(
+    text='Trick \n Shot',
+    image=i,
+    compound='c',
+    width=100, 
+    height=100,
+    foreground='black',
+    command=crossoff20,
+    font=('Helvetica', 15, 'bold')
+)
+button20.place(x=437,y=328)
+button21 = tk.Button(
+    text='GTA',
+    image=i,
+    compound='c',
+    width=100, 
+    height=100,
+    foreground='black',
+    command=crossoff21,
+    font=('Helvetica', 15, 'bold')
+)
+button21.place(x=1,y=437)
+button22 = tk.Button(
+    text='Green \n Screen \n Child',
+    image=i,
+    compound='c',
+    width=100, 
+    height=100,
+    foreground='black',
+    command=crossoff22,
+    font=('Helvetica', 15, 'bold')
+)
+button22.place(x=110,y=437)
+button23 = tk.Button(
+    text='Minecraft',
+    image=i,
+    compound='c',
+    width=100, 
+    height=100,
+    foreground='black',
+    command=crossoff23,
+    font=('Helvetica', 15, 'bold')
+)
+button23.place(x=219,y=437)
+button24 = tk.Button(
+    text='Podcast \n Clip',
+    image=i,
+    compound='c',
+    width=100, 
+    height=100,
+    foreground='black',
+    command=crossoff24,
+    font=('Helvetica', 15, 'bold')
+)
+button24.place(x=328,y=437)
+button25 = tk.Button(
+    text='Food \n Video',
+    image=i,
+    compound='c',
+    width=100, 
+    height=100,
+    foreground='black',
+    command=crossoff25,
+    font=('Helvetica', 15, 'bold')
+)
+button25.place(x=437,y=437)
 window.mainloop()
