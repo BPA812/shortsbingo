@@ -226,7 +226,83 @@ def crossoff25():
         button25['foreground'] = 'black'
         button25['text'] = 'Food \n Video'
         button25['font'] = ('Helvetica', 15, 'bold')
-window.geometry("546x546")
+def resetboard():
+    button1['foreground'] = 'black'
+    button1['text'] = 'Dead Meme'
+    button1['font'] = ('Helvetica', 15, 'bold')
+    button2['foreground'] = 'black'
+    button2['text'] = 'TikTok Video'
+    button2['font'] = ('Helvetica', 15, 'bold')
+    button3['foreground'] = 'black'
+    button3['text'] = 'Hard Edit🔥'
+    button3['font'] = ('Helvetica', 15, 'bold')
+    button4['foreground'] = 'black'
+    button4['text'] = 'Made For \n An 8 Year-Old'
+    button4['font'] = ('Helvetica', 15, 'bold')
+    button5['foreground'] = 'black'
+    button5['text'] = 'Satisfying'
+    button5['font'] = ('Helvetica', 15, 'bold')
+    button6['foreground'] = 'black'
+    button6['text'] = '\"this guy\"'
+    button6['font'] = ('Helvetica', 15, 'bold')
+    button7['foreground'] = 'black'
+    button7['text'] = 'Different \n Language'
+    button7['font'] = ('Helvetica', 15, 'bold')
+    button8['foreground'] = 'black'
+    button8['text'] = 'Fortnite'
+    button8['font'] = ('Helvetica', 15, 'bold')
+    button9['foreground'] = 'black'
+    button9['text'] = 'TV/Movie \n Clip'
+    button9['font'] = ('Helvetica', 15, 'bold')
+    button10['foreground'] = 'black'
+    button10['text'] = 'Sub Bait'
+    button10['font'] = ('Helvetica', 15, 'bold')
+    button11['foreground'] = 'black'
+    button11['text'] = 'TikTok Girl \n Voice'
+    button11['font'] = ('Helvetica', 15, 'bold')
+    button12['foreground'] = 'black'
+    button12['text'] = 'Actually \n Funny'
+    button12['font'] = ('Helvetica', 15, 'bold')
+    button13['foreground'] = 'black'
+    button13['text'] = 'Free!'
+    button13['font'] = ('Helvetica', 40, 'bold')
+    button14['foreground'] = 'black'
+    button14['text'] = 'Girls \n Dancing'
+    button14['font'] = ('Helvetica', 15, 'bold')
+    button15['foreground'] = 'black'
+    button15['text'] = 'AI VOICE'
+    button15['font'] = ('Helvetica', 15, 'bold')
+    button16['foreground'] = 'black'
+    button16['text'] = '\"So \n That\'s \n Why\"'
+    button16['font'] = ('Helvetica', 15, 'bold')
+    button17['foreground'] = 'black'
+    button17['text'] = 'MrBeast'
+    button17['font'] = ('Helvetica', 15, 'bold')
+    button18['foreground'] = 'black'
+    button18['text'] = 'Cringe'
+    button18['font'] = ('Helvetica', 15, 'bold')
+    button19['foreground'] = 'black'
+    button19['text'] = 'Actually \n Interesting'
+    button19['font'] = ('Helvetica', 15, 'bold')
+    button20['foreground'] = 'black'
+    button20['text'] = 'Trick \n Shot'
+    button20['font'] = ('Helvetica', 15, 'bold')
+    button21['foreground'] = 'black'
+    button21['text'] = 'GTA'
+    button21['font'] = ('Helvetica', 15, 'bold')
+    button22['foreground'] = 'black'
+    button22['text'] = 'Green \n Screen \n Child'
+    button22['font'] = ('Helvetica', 15, 'bold')
+    button23['foreground'] = 'black'
+    button23['text'] = 'Minecraft'
+    button23['font'] = ('Helvetica', 15, 'bold')
+    button24['foreground'] = 'black'
+    button24['text'] = 'Podcast \n Clip'
+    button24['font'] = ('Helvetica', 15, 'bold')
+    button25['foreground'] = 'black'
+    button25['text'] = 'Food \n Video'
+    button25['font'] = ('Helvetica', 15, 'bold')
+window.geometry("546x600")
 window.title("YT Shorts Bingo")
 button1 = tk.Button(
     text='Dead Meme',
@@ -503,4 +579,15 @@ button25 = tk.Button(
     font=('Helvetica', 15, 'bold')
 )
 button25.place(x=437,y=437)
+resetbutton = tk.Button(
+    text='Reset Board',
+    image=i,
+    compound='c',
+    width=200, 
+    height=35,
+    foreground='black',
+    command=resetboard,
+    font=('Helvetica', 15, 'bold')
+)
+resetbutton.place(x=173,y=550)
 window.mainloop()
